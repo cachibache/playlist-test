@@ -1,67 +1,78 @@
 
 body {
-  background-color: #D4E7ED;
+  background-color: white;
 }
 
-.out-box {
-  background-color: #7195A3;
-  margin: 50px 65px 50px 65px;
-  padding: 50px;
-  border-radius: 3%;
+.left-box{
+  background-color: black;
+  position: absolute;
+  top: 0;
+  right: 80%;
+  bottom: 0;
+  left: 0;
+  padding-left: 20px;
 }
 
-.in-box {
-  background-color: #74A6BD;
-  margin: 25px 0px 25px 0px;
-  padding: 25px;
-  border-radius: 3%;
-  color: #294052;
-  font-family: 'Signika Negative', sans-serif;
-  font-weight: bold;
-  font-size:18px;
-}
-
-#selection-box {
-  color: #294052;
-  font-family: 'Signika Negative', sans-serif;
-  font-weight: bold;
-  font-size:18px;
+.right-box {
+  background-image: url('background.jpg') ;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 20%;
 }
 
 #in-box-contents {
+  color: #C0C0C0;
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: bold;
+  font-size:16px;
   text-align: center;
 }
 
+#selection-box {
+  color: #C0C0C0;
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: bold;
+  font-size:16px;
+}
+
 #mult-sel-1 {
-  float: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #mult-sel-2 {
-  float: right;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #mult-sel-3 {
-  clear: both;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 header {
   font-family: 'Alfa Slab One', cursive;
-  color: #274257;
-  font-size: 25px;
+  color: #81C6DD;
+  font-size: 50px;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
 
 h2 {
-  color: #294052;
+  color: #AB988B;
   font-family: 'Bree Serif', serif;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 }
 
 p {
-  color: #294052;
+  color: ##C0C0C0;
   font-family: 'Signika Negative', sans-serif;
   font-weight: bold;
-  font-size:18px;
+  font-size:16px;
 }

@@ -5,15 +5,17 @@
       <link rel="stylesheet" href="playlist.css" type="text/css"> 
       <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Signika+Negative:600' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Signika+Negative' rel='stylesheet' type='text/css'>
+
+      <script src="jquery-1.9.1.min.js"></script>
+      <script src="application.js"></script>
   </head> 
   <body> 
-    <div class="out-box"> 
-      <header><h1>Playlist</h1></header> 
-        <section> 
-          <div class="in-box"> 
+    <div class="left-box">
+      <header> Playlist </header>
+      <section> 
             <form action='http://developer.echonest.com/api/v4/playlist/static?'>
-              <h2> Build Your Playlist </h2> </br>
+              <h2> Build Your Jogging Playlist </h2> </br>
               <input type='hidden' name='api_key' value='FILDTEOIK2HBORODV' />
               <input type='hidden' name='format' value='json' />
               <input type='hidden' name='results' value='75' />
@@ -21,7 +23,7 @@
               
               <div id='in-box-contents'>
                 Enter an Artist you Like: <br/>
-                <input type='text' name='artist' size='40' /> </br>
+                <input type='text' name='artist' size='30' /> </br>
                 <div id='selection-box'>
                   <div id='mult-sel-1'>
                     Tempo (beats per minute) <br/>
@@ -51,7 +53,7 @@
                   </div>
 
                   <div id='mult-sel-2'>
-                    Song Hotness (min 0 - 1 max) <br/>
+                    Song Hotness (0 - 1) <br/>
                     <label> Min
                       <select name='song_min_hotttnesss'>
                         <option value='0.0'> 0.0 </option>
@@ -93,13 +95,9 @@
                 </br><input type='submit' name='' value='Search' /> 
               </div>
             </form>
-          </div> 
-
-          <div> 
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas sit amet metus. Nunc quam elit, posuere nec, auctor in, rhoncus quis, dui. Aliquam erat volutpat. Ut dignissim, massa sit amet dignissim cursus, quam lacus feugiat.
-          </div> 
         </section> 
-
+    </div>
+    <div class="right-box"> 
       <footer><p>Footer</p></footer> 
     </div>
   </body> 
