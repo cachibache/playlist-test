@@ -1,0 +1,104 @@
+<!DOCTYPE HTML> 
+<html> 
+  <head> 
+    <title>My Playlist</title> 
+      <link rel="stylesheet" href="playlist.css" type="text/css"> 
+      <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Signika+Negative:600' rel='stylesheet' type='text/css'>
+  </head> 
+  <body> 
+    <div class="out-box"> 
+      <header><h1>Playlist</h1></header> 
+        <section> 
+          <div class="in-box"> 
+            <form action='http://developer.echonest.com/api/v4/playlist/static?'>
+              <h2> Build Your Playlist </h2> </br>
+              <input type='hidden' name='api_key' value='FILDTEOIK2HBORODV' />
+              <input type='hidden' name='format' value='json' />
+              <input type='hidden' name='results' value='75' />
+
+              <input type='hidden' name='type' value='artist-radio' />
+              
+              <div id='in-box-contents'>
+                <p> Enter an Artist you Like: </p>
+                <input type='text' name='artist' size='40' /> </br>
+                </br>
+                <div id='selection-box'>
+                  <p> Tempo (beats per minute) </p>
+                  <label> Min
+                    <select name='min_tempo'>
+                      <option value='130'> 130 </option>
+                      <option value='135' selected='selected'> 135 </option>
+                      <option value='140'> 140 </option>
+                      <option value='145'> 145 </option>
+                      <option value='150'> 150 </option>
+                      <option value='155'> 155 </option>
+                      <option value='160'> 160 </option>
+                    </select>
+                  </label>
+
+                  <label> Max
+                    <select name='max_tempo'>
+                      <option value='135'> 135 </option>
+                      <option value='140'> 140 </option>
+                      <option value='145'> 145 </option>
+                      <option value='150'> 150 </option>
+                      <option value='155'> 155 </option>
+                      <option value='160' selected='selected'> 160 </option>
+                      <option value='165'> 165 </option>
+                    </select>
+                  </label>
+
+                  </br>
+                  <p> Song Hotness (min 0 - 1 max) </p>
+                  <label> Min
+                    <select name='song_min_hotttnesss'>
+                      <option value='0.0'> 0.0 </option>
+                      <option value='0.1'> 0.1 </option>
+                      <option value='0.2'> 0.2 </option>
+                      <option value='0.3'> 0.3 </option>
+                      <option value='0.4'> 0.4 </option>
+                      <option value='0.5' selected='selected'> 0.5 </option>
+                      <option value='0.6'> 0.6 </option>
+                      <option value='0.7'> 0.7 </option>
+                      <option value='0.8'> 0.8 </option>
+                      <option value='0.9'> 0.9 </option>
+                    </select>
+                  </label>
+
+                  <label> Max
+                    <select name='song_max_hotttnesss'>
+                      <option value='0.1'> 0.1 </option>
+                      <option value='0.2'> 0.2 </option>
+                      <option value='0.3'> 0.3 </option>
+                      <option value='0.4'> 0.4 </option>
+                      <option value='0.5'> 0.5 </option>
+                      <option value='0.6'> 0.6 </option>
+                      <option value='0.7'> 0.7 </option>
+                      <option value='0.8'> 0.8 </option>
+                      <option value='0.9'> 0.9 </option>
+                      <option value='1.0' selected='selected'> 1.0 </option>
+                    </select>
+                  </label>
+
+                  </br>
+                  <p> Distribution </p>
+                  <input type='radio' name='distribution' value='focused' /> Focused
+                  <input type='radio' name='distribution' value='wandering' checked='checked' /> Wandering
+                </div>
+
+                </br><input type='submit' name='' value='Search' /> 
+              </div>
+            </form>
+          </div> 
+
+          <div> 
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas sit amet metus. Nunc quam elit, posuere nec, auctor in, rhoncus quis, dui. Aliquam erat volutpat. Ut dignissim, massa sit amet dignissim cursus, quam lacus feugiat.
+          </div> 
+        </section> 
+
+      <footer><p>Footer</p></footer> 
+    </div>
+  </body> 
+</html>
