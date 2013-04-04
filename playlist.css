@@ -25,17 +25,17 @@ body {
 
 #in-box-contents {
   color: #C0C0C0;
-  font-family: 'Signika Negative', sans-serif;
+  font-family: 'Snippet', sans-serif;
   font-weight: bold;
-  font-size:16px;
+  font-size:15px;
   text-align: center;
 }
 
 #selection-box {
   color: #C0C0C0;
-  font-family: 'Signika Negative', sans-serif;
+  font-family: 'Snippet', sans-serif;
   font-weight: bold;
-  font-size:16px;
+  font-size:15px;
 }
 
 #mult-sel-1 {
@@ -53,13 +53,18 @@ body {
   margin-bottom: 30px;
 }
 
+#mult-sel-4 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 header {
   font-family: 'Alfa Slab One', cursive;
   color: #81C6DD;
   font-size: 50px;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 h2 {
@@ -72,7 +77,7 @@ h2 {
 
 p {
   color: ##C0C0C0;
-  font-family: 'Signika Negative', sans-serif;
+  font-family: 'Snippet', sans-serif;
   font-weight: bold;
-  font-size:16px;
+  font-size:15px;
 }
