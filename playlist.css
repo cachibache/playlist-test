@@ -23,6 +23,21 @@ body {
   left: 25%;
 }
 
+footer {
+  background-color: #1C1C1C;
+  position: absolute;
+  top: 95%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-left: 20px;
+  color: #C0C0C0;
+  font-family: 'Snippet', sans-serif;
+  font-weight: bold;
+  font-size:12px;
+  padding-top: 10px;
+}
+
 #in-box-contents {
   color: #C0C0C0;
   font-family: 'Snippet', sans-serif;
@@ -58,6 +73,16 @@ body {
   margin-bottom: 30px;
 }
 
+#button {
+  height: 30px;
+  width: 100px;
+  color: #81C6DD;
+  font-size: 16px;
+  background-color: #1C1C1C;
+  border-color: #1C1C1C;
+  font-family: 'Bree Serif', serif;
+}
+
 header {
   font-family: 'Alfa Slab One', cursive;
   color: #81C6DD;
@@ -76,7 +101,7 @@ h2 {
 }
 
 p {
-  color: ##C0C0C0;
+  color: #C0C0C0;
   font-family: 'Snippet', sans-serif;
   font-weight: bold;
   font-size:15px;
