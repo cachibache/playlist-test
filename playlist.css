@@ -53,6 +53,14 @@ footer {
   font-size:15px;
 }
 
+label {
+  color: #C0C0C0;
+  font-family: 'Snippet', sans-serif;
+  font-weight: bold;
+  font-size:12px;
+
+}
+
 #mult-sel-1 {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -108,9 +116,9 @@ h2 {
   text-align: center;
 }
 
-p {
+.radio {
   color: #C0C0C0;
   font-family: 'Snippet', sans-serif;
   font-weight: bold;
-  font-size:15px;
+  font-size:13px;
 }
