@@ -123,3 +123,12 @@ h2 {
   font-weight: bold;
   font-size:13px;
 }
+
+.copy {
+  float: right;
+  padding-right: 10px;
+}
+
+nav {
+  float: left;
+}
